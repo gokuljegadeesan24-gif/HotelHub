@@ -42,3 +42,4 @@ function HotelCard({ hotel, onDelete }) {
 }
 
 export default HotelCard;
+ghhhi
