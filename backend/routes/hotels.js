@@ -4,6 +4,7 @@ const path = require('path');
 const pool = require('../db');
 const upload = require('../middleware/upload');
 const validateHotel = require('../middleware/validate');
+const { abort } = require('process');
 
 const router = express.Router();
 
